@@ -1,4 +1,4 @@
-# Laporan Praktikum Pertemuan 4
+# Laporan Praktikum Pertemuan 5
 Maulana Bintang Irfansyah_TI-1H
 ## Jawaban untuk Pertanyaan 4.2.3
 Sebuah algoritma divide and conquer memiliki 3 tahapan umum yakni:
