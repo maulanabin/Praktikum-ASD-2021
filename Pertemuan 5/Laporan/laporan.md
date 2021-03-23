@@ -89,7 +89,7 @@ Pada pertemuan 4 mata kuliah "Algoritma dan Struktur Data" terdapat penugasan te
 
 2. Pada tugas 4 terdapat soal untuk membuat program tentang pemilihan ketua BEM di Polinema dengan menentukan mayoritas jumlah suara terbanyak. Berikut di bawah ini gambar hasil dari keluaran program yang telah saya buat beserta diagram class-nya:
 
-    <img src="DIAGRAM.JPG">
+    <img src="baru.JPG">
 
     <img src="2.1.JPG">
 
