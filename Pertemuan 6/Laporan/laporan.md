@@ -1,4 +1,4 @@
-# Laporan Praktikum Pertemuan 5
+# Laporan Praktikum Pertemuan 6
 Maulana Bintang Irfansyah_TI-1H
 ## Jawaban untuk Pertanyaan 5.2.3
 
