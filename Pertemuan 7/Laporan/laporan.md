@@ -50,16 +50,20 @@ Pada pertemuan 5 mata kuliah "Algoritma dan Struktur Data" terdapat penugasan te
     <img src="ketiga.JPG">
 
 2. Pada tugas 2 terdapat soal untuk memodifikasi kembali percobaan searching dengan ketentuan pencariannya berdasarkan nama mahasiswa. Berikut di bawah ini gambar hasil dari keluaran program yang dimana menggunakan algoritma Sequential search:
+
     <img src="11.JPG">
 
     <img src="22.JPG">
 
 Pada indeks ke-3 dan ke-5 terdapat nama mahasiswa yang sama, maka pada saat pencarian nama 'Intan' keluaran program akan menampilkan data mahasiswa 'Intan' yang terdapat di indeks ke-3.
 
-3. Pada tugas 2 terdapat soal untuk memodifikasi kembali percobaan searching dengan ketentuan pencariannya berdasarkan nama mahasiswa. Berikut di bawah ini gambar hasil dari keluaran program yang dimana menggunakan algoritma Sequential search:
-    <img src="11.JPG">
+3. Pada tugas 3 terdapat soal untuk mencari data pada array 2 dimensi yang telah diketahui nilai datanya. Berikut di bawah ini gambar hasil dari keluaran program yang dimana menggunakan algoritma Sequential search:
 
-    <img src="22.JPG">
+    <img src="100.JPG">
+
+4. Pada tugas 4 terdapat soal untuk meengurutkan data pada array 1 dimensi yang telah diketahui nilai datanya, dan juga mencari dan mencetak isi array yang nilainya besar. Di sini saya menggunakan metode pengurutan Merge Sort dan mencari nilai terbesar dengan metode Binary Search. Berikut di bawah ini gambar hasil dari keluaran programnya:
+
+    <img src="200.JPG">
 
 Terima kasih.
     
