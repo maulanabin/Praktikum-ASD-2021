@@ -7,36 +7,40 @@ Maulana Bintang Irfansyah_TI-1H
 2. Fungsi break pada kode program di bawah ini adalah
 untuk menghentikan perulangan yang sedang berlangsung jika nilai yang dicari cocok dengan data yang ada di NIM (kondisi bernilai TRUE). Sehingga program akan melanjutkan pada tahap selanjutnya setelah perulagannya.
 
-    <img src="1.JPG">
+   <img src="1.JPG">
 
 3. Program akan tetap berjalan, dan hasil keluarannya adalah benar. Karena data tidak perlu untuk diurutkan agar berjalan, sehingga program dengan sendirinya akan mencari data yang dicari meskipun data-datanya tidak terurut.
 
 ## Jawaban untuk Pertanyaan 6.3.3
 Kode program 
 
-<img src="2.JPG">
+   <img src="2.JPG">
 
 1. Proses divide dilakukan pada baris
-    <img src="3.JPG">   
+
+   <img src="3.JPG">   
 
 Pada baris ini dilakukan pembagian data ke dalam 3 bagian, yaitu data kiri, tengah, dan kanan. Pencocokan dilakukan tergantung pada kondisi antara data yang dicari dengan data yang diperiksa apakah sama dengan, kurang dati ataupun lebih besar.
 
 2. Proses conquer dilakukan pada baris
-    <img src="4.JPG">   
+
+   <img src="4.JPG">   
 
 Pada baris ini juga dilakukan pengembalian hasil dari pencocokan data, apabila data telah dittemukan, maka indeks yang didapat akan dikembalikan pada pemanggilan fungsi, dan data yang telah dipecah-pecah digabungkan kembali menjasi data yang utuh.
+
    <img src="5.JPG"> 
 
 3. Program akan tetap berjalan, tetapi data NIM yang dicari tidak dapat ditemukan. Karena Binary Search merupakan algoritma sorting yang telebih dahulu harus diurutkan data yang di dalam array-nya.
 
 4. Hasil dari binary search adalah data tidak ditemukan, ini tidak sesuai dengan keluaran yang diharapkan. Sehingga cara agar sesau adalah mengubah kode program pada method FindBinarySearch() dengan mengubah operator logika lebih dari (>) menjadi kurang dari (<) hal ini disebabkan karena data yang ingin dilakukan pencarian sudah diurutkan dari data yang terbesar ke terkecil.
-    <img src="7.JPG">
 
+    <img src="7.JPG">
 
     <img src="6.JPG"> 
 
 5. Kode program
-     <img src="8.JPG"> 
+
+    <img src="8.JPG"> 
 
 ## Output Program Praktikum
 Pada pertemuan 5 mata kuliah "Algoritma dan Struktur Data" terdapat penugasan tentang "Bubble sort, Selection sort, dan Insertion sort".
