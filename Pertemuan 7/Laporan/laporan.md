@@ -71,4 +71,4 @@ Pada indeks ke-3 dan ke-5 terdapat nama mahasiswa yang sama, maka pada saat penc
 
 Terima kasih.
     
- *Silakan dilihat pula kode program penugasan di folder Praktikum 5
+ *Silakan dilihat pula kode program penugasan di folder Praktikum 6
