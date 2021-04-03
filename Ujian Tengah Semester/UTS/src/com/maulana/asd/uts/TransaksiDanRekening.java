@@ -3,20 +3,20 @@ package com.maulana.asd.uts;
 public class TransaksiDanRekening {
     Rekening[] account = new Rekening[14];
     Transaksi[] transaction = new Transaksi[14];
-    int rekIdx, traIdx;
+    int rekIndex, traIndex;
 
-    public void tambahRekening(Rekening m){
-        if(rekIdx < account.length){
-            account[rekIdx] = m;
-            rekIdx++;
+    public void tambahRekening(Rekening rk){
+        if(rekIndex < account.length){
+            account[rekIndex] = rk;
+            rekIndex++;
         }else{
             System.out.println("Data penuh!");
         }
     }
-    public void tambahTransaksi(Transaksi m){
-        if(traIdx < transaction.length){
-            transaction[traIdx] = m;
-            traIdx++;
+    public void tambahTransaksi(Transaksi rk){
+        if(traIndex < transaction.length){
+            transaction[traIndex] = rk;
+            traIndex++;
         }else{
             System.out.println("Data penuh!");
         }
@@ -24,8 +24,8 @@ public class TransaksiDanRekening {
     public void tunjukkanRekening(){
         System.out.println("No Rek\t\t  Nama \t\t\t  Phone\t\t Email");
         System.out.println("🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺");
-        for(Rekening m : account){
-            System.out.println(m.noRekening + "\t  " + m.namaDepan + " " + m.namaBelakang + "\t  " + m.phone + "\t " + m.email);
+        for(Rekening rk : account){
+            System.out.println(rk.noRekening + "\t  " + rk.namaDepan + " " + rk.namaBelakang + "\t  " + rk.phone + "\t " + rk.email);
         }
         System.out.println("🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺 🌺");
     }
@@ -64,16 +64,16 @@ public class TransaksiDanRekening {
     }
     public void sorting(boolean bool){
         int size = account.length;
-        for(int i = 0; i<size-1; i++) {
-            for (int j = i+1; j< account.length; j++) {
+        for(int i = 0; i < size - 1; i++) {
+            for (int j = i + 1; j < account.length; j++) {
                 if(!bool){
-                    if(account[i].namaDepan.compareToIgnoreCase(account[j].namaDepan)>0) {
+                    if(account[i].namaDepan.compareToIgnoreCase(account[j].namaDepan) > 0) {
                         String temp = account[i].namaDepan;
                         account[i].namaDepan = account[j].namaDepan;
                         account[j].namaDepan = temp;
                     }
                 }else{
-                    if(account[i].namaDepan.compareToIgnoreCase(account[j].namaDepan)<0) {
+                    if(account[i].namaDepan.compareToIgnoreCase(account[j].namaDepan) < 0) {
                         String temp = account[i].namaDepan;
                         account[i].namaDepan = account[j].namaDepan;
                         account[j].namaDepan = temp;
