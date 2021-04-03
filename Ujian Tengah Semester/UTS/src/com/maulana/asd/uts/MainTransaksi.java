@@ -113,7 +113,7 @@ public class MainTransaksi {
                 menu();
                 break;
             default:
-                System.out.println("Opsi tidak ada!");
+                System.out.println("Pilihan tidak ditemukan");
                 menu();
         }
     }
