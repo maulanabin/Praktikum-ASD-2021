@@ -1,5 +1,6 @@
 package com.maulana.asd.uts;
 import java.util.Scanner;
+
 public class MainTransaksi {
     static Scanner userInput = new Scanner(System.in);
     static TransaksiDanRekening data = new TransaksiDanRekening();
@@ -126,7 +127,7 @@ public class MainTransaksi {
         data.check(norek);
     }
    public static boolean sortBy(){
-        boolean bool = false;
+        boolean cekBoolean = false;
         System.out.println("Pengurutan secara: ");
         System.out.println("1. Descending");
         System.out.println("2. Ascending");
@@ -135,15 +136,15 @@ public class MainTransaksi {
 
         switch(pilihan){
             case 1:
-                bool = true;
+                cekBoolean = true;
                 break;
             case 2:
-                bool = false;
+                cekBoolean = false;
                 break;
             default:
-                System.out.println("Opsi Tidak ada");
+                System.out.println("Pilihan tidak ditemukan");
                 sortBy();
         }
-        return bool;
+        return cekBoolean;
     }
 }
