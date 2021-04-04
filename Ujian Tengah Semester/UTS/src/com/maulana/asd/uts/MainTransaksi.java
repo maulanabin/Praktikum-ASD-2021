@@ -9,6 +9,52 @@ public class MainTransaksi {
         dataTransaksi();
         menu();
     }
+    public static void menu(){
+        System.out.println("\t\t🌷🌷 Maulana Bank 🌷🌷");
+        System.out.println("(1) Tampilkan data rekening");
+        System.out.println("(2) Tampilkan data transaksi");
+        System.out.println("(3) Mencari saldo > 500.000");
+        System.out.println("(4) Mencari data > nomor rekening");
+        System.out.println("(5) Sorting dari nama");
+        System.out.println("(6) Keluar");
+        System.out.print("Masukkan nomor pilihan:  ");
+        int nomorPilihan = userInput.nextInt();
+
+        switch(nomorPilihan){
+            case 1:
+                data.tunjukkanRekening();
+                menu();
+                break;
+            case 2:
+                data.tunjukkanTransaksi();
+                menu();
+                break;
+            case 3:
+                System.out.println("\t\t\t>>Data Saldo di atas 500000<<");
+                data.FindSeqSearch(500000);
+                menu();
+                break;
+            case 4:
+                findNoRekening();
+                menu();
+                break;
+            case 5:
+                boolean bool = sortBy();
+                System.out.println("🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼");
+                System.out.println("Mengurutkan data berdasarkan nama > " + (bool ? "Descending" : "Ascending"));
+                System.out.println("🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼");
+                data.sorting(bool);
+                data.tunjukkanRekening();
+                menu();
+                break;
+            case 6:
+                menu();
+                break;
+            default:
+                System.out.println("Pilihan tidak ditemukan");
+                menu();
+        }
+    }
     public static void dataRek(){
         Rekening rek1 = new Rekening("160309273084", "bin Abdul Salam", "Aruffin", "14582643263", "ligula.Nullam@tacitisociosqu.edu");
         Rekening rek2 = new Rekening("169712042416","Al Hafeezy", "Mohammad", "16834168323", "ut.pellentesque@luctusutpellentesque.com");
@@ -70,52 +116,6 @@ public class MainTransaksi {
         data.tambahTransaksi(trans12);
         data.tambahTransaksi(trans13);
         data.tambahTransaksi(trans14);
-    }
-    public static void menu(){
-        System.out.println("\t\t🌷🌷 Maulana Bank 🌷🌷");
-        System.out.println("(1) Tampilkan data rekening");
-        System.out.println("(2) Tampilkan data transaksi");
-        System.out.println("(3) Mencari saldo > 500.000");
-        System.out.println("(4) Mencari data > nomor rekening");
-        System.out.println("(5) Sorting dari nama");
-        System.out.println("(6) Keluar");
-        System.out.print("Masukkan nomor pilihan:  ");
-        int nomorPilihan = userInput.nextInt();
-
-        switch(nomorPilihan){
-            case 1:
-                data.tunjukkanRekening();
-                menu();
-                break;
-            case 2:
-                data.tunjukkanTransaksi();
-                menu();
-                break;
-            case 3:
-                System.out.println("\t\t\t>>Data Saldo di atas 500000<<");
-                data.FindSeqSearch(500000);
-                menu();
-                break;
-            case 4:
-                findNoRekening();
-                menu();
-                break;
-            case 5:
-                boolean bool = sortBy();
-                System.out.println("🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼");
-                System.out.println("Mengurutkan data berdasarkan nama > " + (bool ? "Descending" : "Ascending"));
-                System.out.println("🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼 🌼");
-                data.sorting(bool);
-                data.tunjukkanRekening();
-                menu();
-                break;
-            case 6:
-                menu();
-                break;
-            default:
-                System.out.println("Pilihan tidak ditemukan");
-                menu();
-        }
     }
     public static void findNoRekening(){
         System.out.println("❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤");
