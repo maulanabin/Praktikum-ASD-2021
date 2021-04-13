@@ -22,6 +22,7 @@ Maulana Bintang Irfansyah_TI-1H
 3. Fungsi do-while pada class StackMain adalah membuat pertanyaan perulangan yang nantinya akan diberi pertanyaan untuk pengguna apakah ingin mengulangi untuk menambahkan data baru atau tidak.
 
 4. Modifikasi Program
+ 
     <img src="EMPAT.JPG">
 
     <img src="LIMA.JPG"> 
