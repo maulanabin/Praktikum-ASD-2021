@@ -42,7 +42,7 @@ Maulana Bintang Irfansyah_TI-1H
 
 
 ## Output Program Praktikum
-Pada pertemuan 8 mata kuliah "Algoritma dan Struktur Data" terdapat penugasan tentang "stack".
+Pada pertemuan 9 mata kuliah "Algoritma dan Struktur Data" terdapat penugasan tentang "stack".
 
 1. Pada tugas 1 terdapat soal untuk membuat program yang hasil keluarannya berupa kalimat dengan urutan karakter terbalik. Berikut di bawah ini gambar hasil dari keluaran programnya dimana terdapat konsep stack di sintaks programnnya.
 
