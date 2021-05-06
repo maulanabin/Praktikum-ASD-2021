@@ -1,4 +1,4 @@
-package com.maulana.asd.tugas4;
+package com.maulana.asd.kuis;
 
 public class DLLMahasiswa {
     Mahasiswa head;
