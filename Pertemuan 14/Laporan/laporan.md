@@ -36,7 +36,7 @@ Pada pertemuan 14 mata kuliah "Algoritma dan Struktur Data" terdapat penugasan t
     2) Method menampilkan nilai paling kecil dan paling besar
     <img src="22.JPG">
 
-        <img src="33.JPG">
+    <img src="33.JPG">
 
 
     3) Method menampilkan data yang ada di leaf
