@@ -45,16 +45,6 @@ Pada pertemuan 15 mata kuliah "Algoritma dan Struktur Data" terdapat penugasan t
 
     <img src="1.2.JPG">
 
-
-    3) Method menampilkan data yang ada di leaf
-
-    4) Method menampilkan jumlah leaf yang ada di dalam tree
-    <img src="44.JPG">
-
-
- Berikut di bawah ini gambar hasil keluaran program:
-    <img src="tugas1.JPG">
-
 2. Pada tugas kedua terdapat perintah menambahkan method "graphType" dengan tipe boolean yang membedakan graph termasuk directed atau undirected graph. Berikut ini gambar kode program dan hasil keluarannya:
 
     <img src="2.JPG">
