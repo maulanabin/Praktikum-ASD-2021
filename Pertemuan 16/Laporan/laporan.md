@@ -37,11 +37,9 @@ Maulana Bintang Irfansyah_TI-1H
 1. Pada method tambah() menggunakan unlimited argument yang memiliki konsep "Variable-Length Argument List" atau yang disebut juga dengan "varargs". Parameter varargs ini dapat berupa tipe primitif ataupun objek.
 Kelebihan penggunaan "varargs" pada method tambah(Mahasiswa...) adalah menambahkan data sebagai parameternya bisa jadi lebih dari satu.
 
-2.
-    <img src="soal3.2.JPG">
+2 dan 3:
 
-3.
-    <img src="soal3.3.JPG">
+   <img src="ssprogram.JPG">
 
 ## Output Program Praktikum
 Pada pertemuan 16 mata kuliah "Algoritma dan Struktur Data" terdapat penugasan tentang "Java Collection".
